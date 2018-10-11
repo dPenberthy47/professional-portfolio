@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <!--Meta Tags-->
+        <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>dP Designs</title>
-        <!--Google Fonts-->
+        <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Exo+2:600i" rel="stylesheet">
-        <!--Skeleton-->
+        <!-- Skeleton -->
     <link rel="stylesheet" type="text/css" href="assets/css/skeleton-css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/skeleton-css/skeleton.css">
-        <!--style.css-->
+        <!-- style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <!-- Font Awesome-->
+        <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
                            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
                            crossorigin="anonymous">
@@ -23,7 +23,7 @@
   <body>
     <div class="container main">
       <div id="navbar-section" class="row">
-          <!-- columns should be there immediate child of a row -->
+          <!-- columns should be the immediate child of a row -->
           <div id="header" class="twelve columns">
 
             <nav id="menu">
@@ -84,63 +84,73 @@
                 </ul>
               </div>
             </div>
-            <div class="row">
-              <div id="contact-me" class="twelve columns">
-                <h2>Contact Me:</h2>
-              </div>
-            </div>
           </div>
-        </div> 
+        </div>
+
+        <!-- Portfolio Section -->
         <div id="portfolio" class="eight columns">
 
           <h2 id="portfolio-header">Portfolio of Projects</h2>
           
           <div class="container">
-            <div class="row">
-              <div class="eight columns">
-                <figure class="project">
-                  <a href="https://dpenberthy47.github.io/TriviaGame/"  target="_blank">
-                    <img class="project-img" src="assets/img/liverpool.jpg" alt="Liverpool Trivia Quiz" />
-                  </a>
-                  <h3>Liverpool FC Trivia Quiz</h3>
+            <div class="slideshow-container">
+              <div class="row">
+                <div class="twelve columns mySlides">
+                  <figure class="project">
+                    <a href="https://dpenberthy47.github.io/TriviaGame/"  target="_blank">
+                      <img class="project-img" src="assets/img/liverpool.jpg" alt="Liverpool Trivia Quiz" />
+                    </a>
+                    <h3>Liverpool FC Trivia Quiz</h3>
+                  <p>Place Description of the Project here.</p>
+                  <a class="github-code-link"href="https://github.com/dPenberthy47/TriviaGame">View Code Here</a>
                 </figure>
+                </div>
               </div>
-              <div class="four columns project-description">
-                <p>Place Description of the Project here.</p>
-                <a href="https://github.com/dPenberthy47/TriviaGame">View Code Here</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="eight columns">
-                <figure>
-                  <a href="#" target="_blank">
-                    <img class="#" src="#" alt="#" />
-                  </a>
-                  <h3>Project Name</h3>
+
+
+              <div class="row">
+                <div class="twelve columns mySlides">
+                  <figure class="project">
+                    <a href="https://dpenberthy47.github.io/Unit-4-Game/"  target="_blank">
+                      <img class="project-img" src="assets/img/Pokemon.jpg" alt="Mini Pokemon RPG Game" />
+                    </a>
+                    <h3>Pokemon jQuery RPG</h3>
+                  <p>Place Description of the Project here.</p>
+                  <a class="github-code-link" href="https://github.com/dPenberthy47/Unit-4-Game">View Code Here</a>
                 </figure>
+                </div>
               </div>
-              <div class="four columns project-description">
-                <p>Place Description of the Project here.</p>
+
+<!--
+  ==============================          
+            TEMPLATE
+  ==============================
+              <div class="row">
+                <div class="twelve columns mySlides">
+                  <figure class="project">
+                    <a href="#"  target="_blank">
+                      <img class="project-img" src="#" alt="#" />
+                    </a>
+                    <h3>Project</h3>
+                  </figure>
+                  <p>Place Description of the Project here.</p>
+                  <a href="#">View Code Here</a>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="eight columns">
-                <figure>
-                  <a href="#" target="_blank">
-                    <img class="#" src="#" alt="#" />
-                  </a>
-                  <h3>Project Name</h3>
-                </figure>
-              </div>
-              <div class="four columns project-description">
-                <p>Place Description of the Project here.</p>
-              </div>
-            </div>
+-->
+
+                <!-- Redo this by yourself so you can actually learn how to do this -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
 
+          <br>
+
+        </div>
       </div>
+
       <footer class="row">
-        <div class="twelven columns">
+        <div class="twelve columns">
 
             <div id="contactInfo">
 
@@ -162,6 +172,9 @@
         </div>
       </footer>
     </div>
+
+    <script src="assets/js/script.js"></script>
+
   </body>
 
 </html>
