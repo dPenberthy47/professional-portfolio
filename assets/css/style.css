@@ -41,7 +41,8 @@ body {
 
 /* About Me */
 #about-me {
-    margin-left: 5%;
+    padding: 0 5%;
+    text-align: justify;
 }
 
 
@@ -71,6 +72,7 @@ body {
   
 .mySlides {
     display: none;
+    text-align: justify;
 }
 
 .github-code-link {
@@ -119,8 +121,8 @@ body {
 #list-of-skills {
     list-style-type: none;
     border: #670A0A 5px solid;
-    margin: 20px;
-    padding: 40px;
+    margin: 5%;
+    padding: 5%;
     background: whitesmoke;
     font-size: 20px;
     box-shadow: black 0 0 8px 8px
@@ -143,3 +145,20 @@ i:hover {
 
 }
 
+
+@media screen and (max-width: 720px) and  (min-width: 550px) {
+    .single-skill {
+        font-size: 0.7em;
+    }
+    #portfolio-header, .portfolio-project-name {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 550) {
+    #list-of-skills {
+        
+        padding: 40px;
+    }
+    
+}
