@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Moon;
+    src: url(../Fonts/MOON-2.0/MOON-2.0-FREE/Moon2.0-Regular.otf);
+  }
+
 /* general */
 .row {
     margin: 0 0 40px 0;
@@ -27,22 +32,36 @@ body {
 }
 
 #header-img {
-    box-shadow: 0 0 20px 20x grey;
     width: 90%;
+    position: relative;
 
 }
 
 #header-img {
     padding-bottom: 50px;
     border-bottom: 4px solid #670A0A;
-
 }
+
+
 
 
 /* About Me */
 #about-me {
     padding: 0 5%;
     text-align: justify;
+    font-family: Moon;
+}
+
+#about-me p {
+    font-size: 1.75rem;
+}
+
+#about-me-header {
+    text-align: left;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-family: Moon;
 }
 
 
@@ -134,10 +153,14 @@ footer {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 i {
     font-size: 3em;
     color: #670A0A;
-    text-decoration: none;
+    
 }
 i:hover {
     font-size: 4em;

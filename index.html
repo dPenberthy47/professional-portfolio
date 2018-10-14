@@ -8,6 +8,7 @@
     <title>dP Designs</title>
         <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Exo+2:600i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
         <!-- Skeleton -->
     <link rel="stylesheet" type="text/css" href="assets/css/skeleton-css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/skeleton-css/skeleton.css">
@@ -18,27 +19,19 @@
                            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
                            crossorigin="anonymous">
    
-
   </head>
   <body>
     <div class="container main">
       <div id="navbar-section" class="row">
           <!-- columns should be the immediate child of a row -->
-          <div id="header" class="twelve columns">
+        <div id="header" class="twelve columns">
+          <nav id="menu">
+            <h1 id="title">dP Designs</h1>
+          </nav>
 
-            <nav id="menu">
-
-              <h1 id="title">dP Designs</h1>
-
-            </nav>
-
-            <div id="picture-header">
-
-              <!-- Static header with content -->
-              <!-- <img> with content over it -->
+          <div id="picture-header">
               <img id="header-img" src="https://images.yourstory.com/2016/09/Hipster-computer-user.jpg?auto=compress" alt="Welcome to dP Designs">
-
-            </div>
+          </div>
         </div>
       </div>
 
@@ -46,14 +39,20 @@
         <!-- columns should be there immediate child of a row -->
 
         <div id="about-me" class="twelve columns">
-          <h2>About Me</h2>
+          <h2 id="about-me-header">I make websites for a living.</h2>
           <p>
-              I am a Full Stack Web Developer in the DFW Area. I specialize in React.js, but I also have proven capabilities
-            in Node.js, Express.js, MySQL, etc.
-            
-            My passions are Jesus, coffee, and music. 
-            To top that off, I have experience running successful SEO campaigns. 
-            You can trust me to serve your all your website and online marketing needs.</p>
+            My name is David Penberthy, and I am a Full Stack MERN developer in The Dallas-Fort Worth Metroplex.
+            I graduated from Texas A&M University with a Bachelors of Science in Sociology,
+            and I am currently attending the SMU coding bootcamp. 
+            <br><br>
+            Developing websites is one of my passions because it allows me 
+            to combine my creative and innoative thinking with my love for learning. 
+            You can always find me with a cappucino in one hand and my laptop in the other.
+            To me, website development is an incredible way to serve people.
+            It is neat when what you do matters so much to others, and that drives me
+            to be a better developer every single day.
+
+          </p>
         </div>
          <!--<div id="headshot" class="three columns">
 
@@ -77,6 +76,7 @@
                   <li class="single-skill">React.js</li>
                   <li class="single-skill">Node.js</li>
                   <li class="single-skill">Express.js</li>
+                  <li class="single-skill">MongoDB</li>
                   <li class="single-skill">jQuery</li>
                   <li class="single-skill">MySQL</li>
                   <li class="single-skill">JavaScript</li>
@@ -110,36 +110,57 @@
                 </figure>
                 </div>
                
-
-
-              
                 <div class="twelve columns mySlides">
                   <figure class="project">
                     <a href="https://dpenberthy47.github.io/Unit-4-Game/"  target="_blank">
                       <img class="project-img" src="assets/img/Pokeball.jpg" alt="Mini Pokemon RPG Game" />
                     </a>
                     <h3 class="portfolio-project-name">Pokemon jQuery RPG</h3>
-                  <p>jQuery catches all the DOM elements to create this simple Pokemon Battle RPG game.
-                    Choose between one of four fan favorites and become a Pokemon master!
-                  </p>
-                  <a class="github-code-link" href="https://github.com/dPenberthy47/Unit-4-Game">View Code Here</a>
-                </figure>
+                    <p>jQuery catches all the DOM elements to create this simple Pokemon Battle RPG game.
+                      Choose between one of four fan favorites and become a Pokemon master!
+                    </p>
+                    <a class="github-code-link" href="https://github.com/dPenberthy47/Unit-4-Game">View Code Here</a>
+                  </figure>
                 </div>
-              
 
+                
+                <div class="twelve columns mySlides">
+                  <figure class="project">
+                    <a href="https://dpenberthy47.github.io/GiphyAPIBank/"  target="_blank">
+                      <img class="project-img" src="assets/img/Disney.jpg" alt="Disney Giphy API Bank" />
+                    </a>
+                    <h3 class="portfolio-project-name">Disney-Giphy API Bank</h3>
+                    <p>Search for your favorite gifs with this Giphy API driven and Disney themed app. 
+                      The user can either browse the Disney-themed topics or create their own topic.</p>
+                    <a class="github-code-link" href="https://github.com/dPenberthy47/GiphyAPIBank">View Code Here</a>
+                  </figure>
+                </div>
+               
+
+                
+                <div class="twelve columns mySlides">
+                  <figure class="project">
+                    <a href="https://dpenberthy47.github.io/Train_Scheduler/"  target="_blank">
+                      <img class="project-img" src="assets/img/train.jpg" alt="Train Scheduler App" />
+                    </a>
+                    <h3 class="portfolio-project-name">Train Scheduler</h3>
+                    <p>Any user can log and track when their next train arrives thanks to this train scheduler app. 
+                      Powered by Firebase and moment.js, you'll be sure to make it to your destination on time.</p>                      <a class="github-code-link" href="https://github.com/dPenberthy47/Train_Scheduler">View Code Here</a>
+                  </figure>
+                </div>
+                
              
-                  <div class="twelve columns mySlides">
-                    <figure class="project">
-                      <a href="https://fathomless-headland-39967.herokuapp.com/"  target="_blank">
-                        <img class="project-img" src="assets/img/library.jpg" alt="Library Portal App" />
-                      </a>
-                      <h3 class="portfolio-project-name">Library Portal</h3>
-                      <p>Library software is no longer clunky and confusing thanks to this Full-Stack JavaScript
-                        application. Use the MySQL database to create a login and check out your favorite books!
-                      </p>
-                      <a class="github-code-link" href="https://github.com/The-Librarians">View Code Here</a>
-                    </figure>
-                  </div>
+                <div class="twelve columns mySlides">
+                  <figure class="project">
+                    <a href="https://fathomless-headland-39967.herokuapp.com/"  target="_blank">
+                      <img class="project-img" src="assets/img/library.jpg" alt="Library Portal App" />
+                    </a>
+                    <h3 class="portfolio-project-name">Library Portal</h3>
+                    <p>Library software is no longer clunky and confusing thanks to this Full-Stack JavaScript
+                      application. Use the MySQL database to create a login and check out your favorite books!                      </p>
+                    <a class="github-code-link" href="https://github.com/The-Librarians">View Code Here</a>
+                  </figure>
+                </div>
                </div>
 
 <!--
@@ -153,7 +174,7 @@
                       <a href="#"  target="_blank">
                         <img class="project-img" src="#" alt="#" />
                       </a>
-                      <h3 class="portfolio-project-name">Library Portal</h3>
+                      <h3 class="portfolio-project-name">Project Name</h3>
                       <p>Place Description of the Project here.</p>
                       <a class="github-code-link" href="#">View Code Here</a>
                     </figure>
@@ -203,4 +224,4 @@
 
   </body>
 
-</html>
+</html
