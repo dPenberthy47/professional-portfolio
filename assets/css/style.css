@@ -25,6 +25,7 @@ body {
     font-family: 'Exo 2', sans-serif;
     color: black;
     padding-left: 5%;
+    font-size: 64px;
 }
 
 #picture-header {
@@ -38,10 +39,9 @@ body {
 }
 
 #header-img {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     border-bottom: 4px solid #670A0A;
 }
-
 
 
 
@@ -53,7 +53,7 @@ body {
 }
 
 #about-me p {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 #about-me-header {
@@ -62,24 +62,36 @@ body {
     font-weight: 700;
     text-align: center;
     font-family: 'Fugaz One', cursive;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 
 /* portfolio */
 
+#portfolio {
+    align-content: center;
+    font-family: 'Fugaz One', cursive;
+}
+
 #portfolio-header {
     text-align: center;
+    font-size: 3em;
 }
 
 .project {
     text-align: center;
+    
+}
+.portfolio-project-name {
+    font-size: 2.5em;
 }
 
 .project-img {
-    width: 125px;
-    height: 125px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+
+
 }
 
 
@@ -132,6 +144,11 @@ body {
 
 
 /* skills */
+#skills {
+    font-family: 'Fugaz One', cursive;
+
+}
+
 #skills h2 {
     text-align: center;
     padding-bottom: 5px;
@@ -177,6 +194,10 @@ i:hover {
     #portfolio-header, .portfolio-project-name {
         font-size: 2em;
     }
+    #portfolio {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 550) {
@@ -184,5 +205,10 @@ i:hover {
         
         padding: 40px;
     }
-    
+    #about-me-text {
+        text-align: center;
+    }
+    #title {
+        font-size: 48px;
+    }
 }
