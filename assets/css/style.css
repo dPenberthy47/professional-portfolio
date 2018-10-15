@@ -23,6 +23,8 @@ body {
 }
 
 
+
+
 /* header */
 #title {
     font-family: 'Exo 2', sans-serif;
@@ -209,7 +211,7 @@ i:hover {
     #title {
         font-size: 48px;
     }
-
+    
 }
 
 @media screen and (max-width: 549) and (min-width: 0px) {
@@ -230,5 +232,8 @@ i:hover {
     }
     #header-img {
         padding-bottom: 45px;
+    }
+    .prev {
+        left: 0px;
     }
 }
