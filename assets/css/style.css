@@ -68,6 +68,14 @@ body {
     font-size: 3.5em;
 }
 
+#computer-div {
+    text-align: center;
+}
+
+#computer {
+    height:100;
+}
+
 
 /* portfolio */
 
@@ -93,8 +101,6 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-
-
 }
 
 
@@ -207,8 +213,7 @@ i:hover {
 }
 
 @media screen and (max-width: 549) and (min-width: 0px) {
-    #list-of-skills {
-        
+    #list-of-skills {    
         padding: 40px;
     }
     #about-me-text {
@@ -216,5 +221,14 @@ i:hover {
     }
     #title {
         font-size: 48px;
+    }
+    #computer {
+        height: 100px;
+    }
+    #about-me-header {
+        font-size: 2.5em;
+    }
+    #header-img {
+        padding-bottom: 45px;
     }
 }
