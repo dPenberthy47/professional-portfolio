@@ -211,6 +211,9 @@ i:hover {
     #title {
         font-size: 48px;
     }
+    .prev {
+        left: 0;
+    }
     
 }
 
